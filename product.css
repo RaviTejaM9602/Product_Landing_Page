@@ -9,26 +9,51 @@ header{
   align-items: center;
 }
 
-ul{
-  list-style: none;
-  display:flex;
-  justify-content:space-around;
+nav a{
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+  font-size: bold;
   }
 
 nav{
    width:100%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   justify-content:space-around;
 }
 
 .sign-up-page{
-  height: 500px;
+  height: 450px;
   display:flex;
   align-items: center;
   justify-content: center;
 }
-
-
-
 .sign-up-form{
   text-align:center;
   margin-bottom: 20px;
+}
+
+.video-page{
+  height:500px;
+  display:flex;
+  justify-content: center;
+}
+
+.video{
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+.Football{
+  height: 500px;
+  background-color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
 }
